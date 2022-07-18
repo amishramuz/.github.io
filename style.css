@@ -1,0 +1,64 @@
+.img1{
+    border-radius: 10px;
+}
+.hover12:hover{
+    background-image: linear-gradient(to bottom right,rgba(255, 255, 255, 0.13),rgb(1, 4, 43));
+    /* background-size: contain; */
+    border-radius: 5px;
+    
+}
+
+.img76{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 180px;
+}
+.bg_modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    
+    position: absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+}
+.modal_content{
+    /* display: flex; */
+    width: 500px;
+    height: 300px;
+    background-color:rgb(70, 158, 129);
+    border-radius: 4px;
+    /* justify-content: center; */
+
+    padding: 20px;
+    position: relative;
+}
+input{
+    width: 50%;
+    display: block;
+    margin: 15px auto;
+    border-radius: 7px;
+    padding-left: 2px;
+    
+}
+.close{
+    position:absolute;
+    top:0;
+    right: 15px;
+    font-size: 40px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.sub_btn{
+    background-color: rgb(229, 215, 151);
+    border: 2px solid burlywood;
+    border-radius: 8px;
+    margin:0px 200px;
+    padding: 5px;
+}
